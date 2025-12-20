@@ -42,3 +42,20 @@ This **Full-Stack Web Application** demonstrates a complete web solution combini
 
 ## 📁 Project Structure
 
+---
+
+## 🔄 Architecture Diagram
+
+```mermaid
+flowchart TD
+    subgraph Frontend
+        A[User Interface] --> B[Client Logic]
+    end
+    B --> C[API Request]
+    C --> D[Backend Routes]
+    D --> E[Controller/Logic]
+    E --> F[Database]
+    F --> E
+    E --> D
+
+
