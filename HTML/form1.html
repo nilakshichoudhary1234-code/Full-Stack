@@ -24,31 +24,31 @@
     <input type="date" >
     <br><br>
 
-    <label for="">Gender : </label>
+    <h3>Gender</h3>
     <br>
     <label for="male">Male</label>
-    <input type="radio" id="male" value="male">
+    <input type="radio" name="gender" id="male" value="male">
     <br>
 
     <label for="female">Female</label>
-    <input type="radio" id="female" value="female">
+    <input type="radio" name="gender" id="female" value="female">
     <br>
     
     <label for="other">Other</label>
-    <input type="radio" id="other" value="other">
+    <input type="radio" name="gender" id="other" value="other">
     <br><br>
 
-    <label for="">Upload Your Photo : </label>
+    <h3>Upload Your Photo</h3>
     <br>
     <input type="file">
-    <br><br>
+    <br>
     <hr>
 
     <!--contact information-->
-    <br><br>
+    <br>
     <h1>Contact Information</h1>
-    <label for="email">Email Address : </label>
-    <input type="email" name="email" id="email" value="email" placeholder="you@example.com">
+    <label for="">Email Address : </label>
+    <input type="email" name="email" id="email" value="" placeholder="you@example.com">
     <br><br>
 
     <label for="phone number">Phone Number : </label>
@@ -56,15 +56,15 @@
     <br><br>
 
     <label for="mail address">Mailing Address : </label>
-    <textarea name="mail address" id="mail address" rows="10" cols="10"></textarea><!--to get the box-->
+    <br>
+    <textarea name="mail address" id="mail address" rows="5" cols="10"></textarea><!--to get the box-->
 
-    <br><br>
+    <br>
     <hr>
-    <br><br>
-
+    <br>
     <!--Academic Information-->
     <h1>Academic Information</h1>
-    <br><br>
+    <br>
     <label for="course">Select Your Course : </label>
     <br>
     <select name="course" id="course">
@@ -72,7 +72,47 @@
         <option value="ME">ME</option>
         <option value="CE">CE</option>
     </select>
+    <br><br>
+    <label for="Extracurricular Interests : ">Extracurricular Interests : </label>
+    <br><br>
+    <label for="">Sports</label>
+    <input type="checkbox" id="Sports" value="Sports">
     <br>
+    <label for="">Music & Arts</label>
+    <input type="checkbox" id="Music & Arts" value="Music & Arts">
+    <br>
+    <label for="">Technology Clubs</label>
+    <input type="checkbox" id="Technology Clubs" value="technology clubs">
+    <br>
+    <label for="">Volunteering</label>
+    <input type="checkbox" id="Volunteering">
+    <br>
+    <hr>
+    <br>
+    <!--Create Your Account-->
+    <h1>Create Your Account</h1>
+    <label for="">Create a Password : </label>
+    <input type="password">
+    <br><br>
+    <label for="">Security Question : </label>
+    <select name="Security Question " id="Security Question">
+        <option value="">what was your first pet's name?</option>
+        <option value="">What is your nick name?</option>
+        <option value=""> your sername ?</option>
+    </select>
+    <br><br>
+    <label for="Security Answer">Security Answer : </label>
+    <input type="text" id="Security Answer" value=" ">
+    <br><br>
+    <label for="confirmation">I agree to the terms and conditions</label>
+    <input type="checkbox" id="confirmation" value="confirmation">
+    <br><br>
+    <hr>
+    
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button>
+
+
 
     
 
