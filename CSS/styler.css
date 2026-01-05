@@ -1,8 +1,28 @@
 /*
-Tag Element Selector
+TAG ELEMENT SELECTOR
 h1{
     background-color: pink;
 }
 ul{
     background-color: silver;
 }*/
+
+/*ID BASED SELECTION*/
+/*#first{
+    background-color: brown;
+}
+#second{
+    background-color: bisque;
+}*/
+
+/*USE OF CLASS : can be used for grouping*/
+/*.third{
+    background-color: blue;
+}*/
+
+/*GROUP BASED SELECTION*/
+h1 , .third{
+    background-color: cadetblue;
+}
+
+
