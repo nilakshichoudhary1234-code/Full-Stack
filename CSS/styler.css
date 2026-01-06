@@ -21,8 +21,14 @@ ul{
 }*/
 
 /*GROUP BASED SELECTION*/
-h1 , .third{
+/*h1 , .third , #first{
     background-color: cadetblue;
+}*/
+h1{
+    background-color: rgb(58, 154, 112);
+}
+h2{
+    background-color: hsl(110, 50%, 30%);
 }
 
 
