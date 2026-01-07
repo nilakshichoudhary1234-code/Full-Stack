@@ -24,11 +24,36 @@ ul{
 /*h1 , .third , #first{
     background-color: cadetblue;
 }*/
-h1{
+/*h1{
     background-color: rgb(58, 154, 112);
 }
 h2{
-    background-color: hsl(110, 50%, 30%);
+    background-color: hsl(110, 50%, 30%,)
+ }/* /*hsl(hue:the color, saturation:intensity or vibrancy, lightness:brightness)*/
+
+
+ /*pixel size depend on the screen */
+ul{
+    font-size: 20px
 }
+li{
+    font-size: lem;
+}
+
+html{
+    font-size: 40px;
+}
+h2{
+    font-size:2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    font-style:italic;
+}
+li{
+    /*font-size:5vh;*/
+    font-size:50%;
+}
+
+ 
 
 
