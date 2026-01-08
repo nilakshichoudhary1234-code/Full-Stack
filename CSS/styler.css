@@ -1,19 +1,12 @@
 
-/*TAG ELEMENT SELECTOR*/
+/*TAG ELEMENT SELECTOR
 h1{
     background-color: pink;
-     height: 200px;
-    width: 300px;
-    background-color: khaki;
-    color: rgb(66, 12, 175);
-    text-align: center;
-    font-weight: 800;
-    text-decoration: underline;
-    text-transform: capitalize;
+     
 }
 ul{
     background-color: silver;
-}
+}*/
 
 /*ID BASED SELECTION*/
 /*#first{
@@ -40,7 +33,7 @@ h2{
  }/* /*hsl(hue:the color, saturation:intensity or vibrancy, lightness:brightness)*/
 
 
- /*pixel size depend on the screen */
+ /*pixel size depend on the screen 
 ul{
     font-size: 20px
 }
@@ -59,8 +52,53 @@ h2{
 }
 li{
     /*font-size:5vh;*/
-    font-size:50%;
+   /* font-size:50%;
 }
+
+/*
+
+/* Apply to whole page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Section headings */
+h2 {
+    color: #1e8449;
+    margin-top: 20px;
+}
+
+/* Unordered list styling */
+ul {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+/* Ordered list styling */
+ol {
+    margin-top: 5px;
+}
+
+/* List items */
+li {
+    margin: 6px 0;
+    color: #333;
+}
+
+/* Nested list items */
+ul li ol li {
+    color: #555;
+}
+
 
  
 
