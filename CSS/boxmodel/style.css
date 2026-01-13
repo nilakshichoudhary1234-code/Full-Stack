@@ -1,0 +1,9 @@
+h1{
+    background-color: indianred;
+    height: 300px;
+    width: 200px;
+
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(17, 18, 15) ;
+}
