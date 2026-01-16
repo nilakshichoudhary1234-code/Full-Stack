@@ -1,0 +1,47 @@
+body{
+    font-size: large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: greenyellow;
+
+}
+h2{
+    background-color: gold;
+}
+#foot{
+    font-size: 48px;
+    color: cornsilk;
+}
+p{
+  background-color: darkgrey;
+}
+.subtitle{
+    background-color: azure;
+    color: blueviolet;
+}
+.textbold{
+    font-weight: bold;
+    font-size: 30px;
+}
+#first{
+    font-size: 30px;
+
+}
+#second{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#third{
+    padding:20px
+}
+#first,#second,#third{
+    margin:10px;
+}
+footer>p{
+    font-size: 20px;
+    color: chartreuse;
+    font-weight: bold;
+}
+     
+
+
+
+
