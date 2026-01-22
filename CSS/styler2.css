@@ -1,0 +1,46 @@
+/*span{
+    color:rgb(210, 210, 22);
+}*/
+/*universal selector star*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: cadetblue;
+    height: 200px;
+    width: 300px;
+    padding: 40px;
+    box-sizing: content-box;
+    margin: 20px;
+    display: inline;
+    display: inline-block;
+    width: 300px;
+
+}
+h2{
+    background-color: coral;
+    /*display: inline;*/
+    height: 300px;
+    width: 300px;
+    border: 10px solid red
+
+
+
+}
+/*about inline*/
+span{
+    background-color: darksalmon;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+   /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;*/
+
+    
+}
+
