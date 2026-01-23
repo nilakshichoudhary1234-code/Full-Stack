@@ -1,0 +1,25 @@
+h1{
+    background-color: burlywood;
+}
+/*cascading style sheet
+priority wise:
+1. inline CSS( in case ofd external and internal ordering matters)
+2. id
+3. class
+4. tag(h1,h2)
+5. ordering important(tie)
+
+*/
+.class{
+    background-color: rgb(7, 7, 7);
+}
+#firstid{
+    background-color: coral;
+}
+li{
+    background-color: goldenrod;
+}
+
+h1{
+    background-color: blue;/*ordering matters*/
+}
