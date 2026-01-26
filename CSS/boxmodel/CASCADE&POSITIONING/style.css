@@ -23,3 +23,16 @@ li{
 h1{
     background-color: blue;/*ordering matters*/
 }
+h2{
+    background-color: darkgoldenrod;
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+}
+h3{
+    background-color: moccasin;
+    position: fixed;
+    top: 0px;
+    
+}
