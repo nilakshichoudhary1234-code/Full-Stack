@@ -1,0 +1,36 @@
+#container{
+    background-color: yellow;
+    height: 200px;
+    width:300px;
+    position:relative;
+}
+#box1{
+    background-color: rgb(3, 3, 236);
+    position:absolute;
+    height: 70px;
+    width: 70px;
+    
+
+}
+#box2{
+    background-color: rgb(225, 11, 186);
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    
+    bottom: 100px;
+
+    
+
+
+}
+
+#box3{
+    background-color: lightblue;
+    
+}
+
+#box3{
+    background-color: lightblue;
+    
+}
