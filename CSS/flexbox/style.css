@@ -1,0 +1,26 @@
+.container{
+    background-color: wheat;
+    display: flex;
+    height:400px;
+    flex-direction: row;
+   /*flex-direction: cloumn;*/
+   justify-content: space-around; /* space between, space evenly etc etc*/
+
+}
+.box{
+    height:100px;
+    width:100px;
+    margin:5px;
+}
+.first{
+    background-color: rgb(247, 203, 28);
+}
+.second{
+    background-color: coral;
+}
+.third{
+    background-color: darkmagenta;
+}
+.fourth{
+    background-color: deeppink;
+}
