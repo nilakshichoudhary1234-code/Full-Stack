@@ -1,25 +1,40 @@
 .container{
     background-color: wheat;
     display: flex;
-    height:400px;
+    height:500px;
     flex-direction: row;
    /*flex-direction: cloumn;*/
-   justify-content: space-around; /* space between, space evenly etc etc*/
+   justify-content: center; 
+   align-items: center;
+  /* flex-wrap: wrap;*/
+   gap: 10px;
+   /* justify content: works on the main axis,
+     main axis is decided by the flex direction.
+    align items work on the cross axis.
+    space between, space evenly etc etc
+    */
+
 
 }
 .box{
     height:100px;
     width:100px;
-    margin:5px;
+    
 }
 .first{
     background-color: rgb(247, 203, 28);
+  /*  flex-grow: 1;to use the space left in the same area*/
+    flex-basis: 300px;/*overwrite the length along mainaxis.*/
 }
 .second{
     background-color: coral;
+    /*flex-grow: 2;*/
+    flex-shrink: 4;
 }
 .third{
     background-color: darkmagenta;
+    flex-grow: 3;
+    align-self: flex-start;/*if we dont want to apply the align item in it*/
 }
 .fourth{
     background-color: deeppink;
