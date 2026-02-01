@@ -1,0 +1,22 @@
+.container{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    overflow: scroll;
+   /* background-color: blanchedalmond;
+    box-shadow: 10px 10px blueviolet;*//*offset of x and offset of y*/
+    /*box-shadow:  inset 10px 10px 0px 30px #8a2be2; /*third dimension 3px is blurness */
+    /*in this the foue dimension represents:
+     offset of x
+     offset of y
+     blur
+     radius spread-radius*/
+    
+
+    /* to make sun
+     background-color: yellow;
+     border-radius: 50%;
+     box-shadow: 0px 0px 10px 10px rgb(242, 116, 12);*/
+
+
+}
