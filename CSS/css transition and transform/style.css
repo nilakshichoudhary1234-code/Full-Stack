@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    perspective: 800px;/*for the 3d z axis*/
+   
+
+}
+.box{
+    height:150px;
+    width:150px;
+    background-color: beige;
+    cursor: pointer ;
+   /* transform: translate(100px , 200px);*/
+  /* transform:rotate(30deg);*/
+    /*transform: skew(30deg);*/
+
+    /*transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;*/
+    /*transition: all 3s linear 2s;*/
+    /*transition: all 3s;*/
+    font-size: 50px;
+    color:rgb(19, 10, 10);
+    animation-name: moving;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+
+
+}
+
+/*if we want that the rotation should never stop , then we use animation*/
+
+@keyframes moving{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+
+}
+/*.box:hover{
+   /* background-color: coral;
+    height:300px;
+    width:250px;*/
+   /* transform: scale(2);*/
+   /*transform: translate(100px , 200px);*/
+   /* transform: translateX( 200px);*/
+   /*transform: rotateX(90deg);*/
+
+
+    
+
+/*}/*
