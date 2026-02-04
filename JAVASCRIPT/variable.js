@@ -77,6 +77,15 @@ console.log(obj);
 console.log(s);
 
 //primitivre datatype is immutable.
+
+let w=10;
+let q=w;
+q=100;
+console.log(w,q);
+
+
+
+
 let n=10;
 n=20;
 console.log(a);
@@ -84,6 +93,22 @@ console.log(a);
 let str="mohit";
 str="sohit";
 console.log(str);
+
+//non primitive datatype are mutable
+let Arr = [10,20,30,40,50];
+Arr.push(60);
+Arr[0]=100;
+console.log(Arr);
+
+let person={
+    name:"sita",
+    age:12
+}
+person.age=20;
+console.log(person);
+
+
+
 
 
 
