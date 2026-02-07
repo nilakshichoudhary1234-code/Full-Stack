@@ -134,9 +134,10 @@ else if(personage<60){
 }
 else{
     console.log("old");
-    
-
 }
+
+//logical operator--> && , || , 
+console.log(true&&true);
 
 
 
