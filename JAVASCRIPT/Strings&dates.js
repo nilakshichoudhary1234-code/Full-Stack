@@ -70,6 +70,22 @@ console.log(now.getMonth());//month satry from 0 : january =0
 console.log(now.getFullYear());
 console.log(now.getHours());
 
+//days : mon-tue(1based)
+//month : 0 1
+
+// year month date hour minute second millisecond 
+// const n = new Date(2025,8,20,8,25,16,125);
+// console.log(n.toString());
+
+const n = Date.now();
+const dates = new Date(0); // time in milisecond
+console.log(dates.toString());
+
+//1759272851288 : TimeStamp
+//all the devices use UTC 
+
+
+
 
 
  
