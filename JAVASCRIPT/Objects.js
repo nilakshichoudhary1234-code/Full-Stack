@@ -95,6 +95,32 @@ console.log(person);
 console.log(person.address);
 console.log(person.address.city);
 
+// //shallow copy
+// const person2={...person};
+// person.name="alisha";
+// person.address.city="jammu";
+// console.log(person);
+
+
+//deep copy
+const person2=structuredClone(person);
+person2.address.city="jammu";
+console.log(person);
+
+const info={
+    name:"rohit",
+    age:50,
+    0:100,
+    2:"mohit"
+
+}
+console.log(info);
+console.log(info.name);
+console.log(info["0"]);
+
+
+
+
 
 
 
