@@ -107,16 +107,23 @@ const person2=structuredClone(person);
 person2.address.city="jammu";
 console.log(person);
 
+//key : string or symbol
+const sym=Symbol("id");
 const info={
     name:"rohit",
     age:50,
     0:100,
-    2:"mohit"
+    2:"mohit",
+    [sym]:"hello"
 
 }
 console.log(info);
 console.log(info.name);
 console.log(info["0"]);
+console.log(info[sym]);
+
+
+
 
 
 
