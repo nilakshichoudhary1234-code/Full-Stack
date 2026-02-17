@@ -44,12 +44,20 @@ function work(){
 greets();
 
 function createCounter(){
+    let count =0;
     function increment(){
-        console.log("i am increment function");
+       // console.log("i am increment function");
+       count++;
+       return count;
+
     }
    return increment;
    //return increment();
 }
-const count = createCounter();
-console.log(count);
-count();
+const counter = createCounter();
+//console.log(count);
+console.log(counter());
+console.log(counter());
+console.log(counter());
+console.log(counter());
+
