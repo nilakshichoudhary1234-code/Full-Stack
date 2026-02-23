@@ -17,7 +17,6 @@ console.log(newarr);
 // console.log( isLoggedIN || "Please Login");
 
 // isLoggedIN = true;
-// console.log(isLoggedIN && "Welcome back");
 
 // let isAdmin=true;
 // console.log(isAdmin && 'Admin Panel')||(isLoggedIn && "user Dashboard");
