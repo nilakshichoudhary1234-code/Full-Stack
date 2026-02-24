@@ -22,15 +22,31 @@
 //     child1.textContent = "i am clicked";
 // })    // if we want same on every child so we will select its parent div
 
-const parent = document.getElementById("parent");
-console.log(parent.children);
+// const parent = document.getElementById("parent");
+// console.log(parent.children);
 
-for(let child of parent.children){
-    console.log(child);
-    child.addEventListener('click',()=>{
-        child.textContent = "I am Clicked";
-    })
-}
+// for(let child of parent.children){
+//     console.log(child);
+//     child.addEventListener('click',()=>{
+//         child.textContent = "I am Clicked";
+//     })
+// }
+
+// const parent = document.getElementById("parent");
+// console.log(parent.children);
+
+// for (let child of parent.children) {
+//     console.log(child);
+//     child.addEventListener('click', () => {
+//         child.textContent = " I am Clicked";
+//     })
+// }
+
+const grandparent = document.getElementById("grandparent");
+grandparent.addEventListener('click', () => {
+    console.log("Grandparent is clicked");
+})
+
 
 
 
