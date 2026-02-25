@@ -45,7 +45,21 @@
 const grandparent = document.getElementById("grandparent");
 grandparent.addEventListener('click', () => {
     console.log("Grandparent is clicked");
-})
+},true)
+
+const parent = document.getElementById("parent");
+grandparent.addEventListener("click", () => {
+  console.log("parent is clicked");
+},true);
+
+
+const child = document.getElementById("child");
+grandparent.addEventListener("click", () => {
+  console.log("child is clicked");
+},true);
+
+//capture phase on hai : top se down aaoge : us time pe event ko trigger kar diya jayega
+//capture phase off hai : event hai unko down to up(bubbling phase bolte hai,tab trigger karajayega)
 
 
 
