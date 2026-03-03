@@ -1,4 +1,4 @@
-import { products } from "./products_100 (1).js"
+import { products } from "./products_100 (1).js";
 //console.log(products);
 
 // {
@@ -23,7 +23,7 @@ import { products } from "./products_100 (1).js"
 //     //return {...p,price:(p.price*10)/100+p.price};
 // });
 // console.log(newProducts);
-const newProducts = products.filter((p)=>p.category === "food");
+const newProducts = products.filter((p) => p.category === "food");
 console.log(newProducts);
 
 //total cart value
@@ -31,20 +31,11 @@ console.log(newProducts);
 //     console.log(p.name,p.price,p.qty);
 //     return sum+p.price*p.qty;
 // }
-// ); 
+// );
 // console.log("total price: ",grandTotal);
 
 //total quantity
-const totalQuantity=products.reduce((sum,p)=>{
-    return sum+p.qty;
-    
+const totalQuantity = products.reduce((sum, p) => {
+  return sum + p.qty;
 });
-console.log("totak quantity" , totalQuantity);
-
-
-
-
-
- 
-
-
+console.log("totak quantity", totalQuantity);
