@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Animated Wave Header -->
+<!-- Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Full%20Stack%20Web%20Application&fontSize=45&fontAlignY=40&color=0:00E6FF,100:6A5ACD&fontColor=ffffff&animation=fadeIn"/>
 
 <!-- Typing Animation -->
@@ -20,17 +20,7 @@
 
 A **complete full-stack web development project** demonstrating the integration of **frontend UI, backend APIs, and database systems**.
 
-This project is built for **learning, experimentation, and showcasing full-stack development skills**.
-
----
-
-# 📸 Project Preview
-
-<div align="center">
-
-<img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="600"/>
-
-</div>
+This project is built for **learning and demonstrating full-stack development skills**.
 
 ---
 
@@ -44,21 +34,36 @@ This project is built for **learning, experimentation, and showcasing full-stack
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Core Frontend Technologies
 
-<div align="center">
+### 📄 HTML5
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
 
-| Frontend | Backend | Database |
-|--------|--------|--------|
-| HTML5 | Node.js | MySQL |
-| CSS3 | Express.js | SQL |
-| JavaScript | REST API | |
-
-</div>
+- 🏗️ Provides the **structure of the web pages**
+- 📑 Defines elements like headings, forms, buttons, and layouts
+- 🌐 Acts as the **foundation of the website**
 
 ---
 
-# ⚙️ Technology Badges
+### 🎨 CSS3
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
+
+- 🎨 Handles the **design and styling**
+- 📱 Makes the site **responsive on all devices**
+- ✨ Adds colors, spacing, animations, and layouts
+
+---
+
+### ⚡ JavaScript
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
+
+- 🧠 Adds **interactivity and dynamic behavior**
+- 🔄 Handles **user actions and DOM manipulation**
+- 🔗 Connects frontend with backend APIs
+
+---
+
+# ⚙️ Technology Stack
 
 <p align="center">
 
@@ -68,7 +73,8 @@ This project is built for **learning, experimentation, and showcasing full-stack
 
 ---
 
----
+ 
+
 
 # 🔄 System Architecture
 
