@@ -16,7 +16,7 @@
 
 ---
 
-# 🌐 Full Stack Web Application
+# 🪻Full Stack Web Application
 
 A **complete full-stack web development project** demonstrating the integration of **frontend UI, backend APIs, and database systems**.
 
@@ -24,7 +24,7 @@ This project is built for **learning and showcasing full-stack development skill
 
 ---
 
-# ✨ Features
+# 📗Features
 
 ✔️ Responsive UI Design  
 ✔️ API Based Backend Communication  
@@ -36,7 +36,7 @@ This project is built for **learning and showcasing full-stack development skill
 
 # 🛠️ Core Frontend Technologies
 
-### 📄 HTML5
+### 📄HTML5
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
 
 - 🏗️ Provides the **structure of the web pages**
@@ -45,7 +45,7 @@ This project is built for **learning and showcasing full-stack development skill
 
 ---
 
-### 🎨 CSS3
+### 🖼️CSS3
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
 
 - 🎨 Handles **design and styling**
@@ -54,7 +54,7 @@ This project is built for **learning and showcasing full-stack development skill
 
 ---
 
-### ⚡ JavaScript
+### ⚡JavaScript
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
 
 - 🧠 Adds **interactivity**
@@ -63,7 +63,7 @@ This project is built for **learning and showcasing full-stack development skill
 
 ---
 
-# ⚙️ Technology Stack
+# ⚙️Technology Stack
 
 <p align="center">
 
@@ -76,7 +76,7 @@ This project is built for **learning and showcasing full-stack development skill
  
 
 
-# 🔄 System Architecture
+# 🔄System Architecture
 
 ```mermaid
 flowchart TD
