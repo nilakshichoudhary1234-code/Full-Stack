@@ -1,35 +1,18 @@
-const arr = [1,5,-90,51,-55,88];
-console.log(arr);
+class Student {
+  constructor(name, roll, marks) {
+    this.name = name;
+    this.roll = roll;
+    this.marks = marks;
+  }
+  display() {
+    console.log("Name: " + this.name);
+    console.log("Roll No: " + this.roll);
+    console.log("Marks: " + this.marks);
+  }
+}
 
-//arr.sort()
-//console.log(arr);
+let s1 = new Student("Rahul", 101, 85);
+let s2 = new Student("Anita", 102, 90);
 
-const newarr=[...arr].sort();
-console.log(newarr);
-
-//ternary operator(?:)
-// const isLoggedIN=false;
-// const msg = isLoggedIN? "welcome back" : "Please Login";
-// console.log(msg);
-
-//short circuit (|| , &&)
-// let isLoggedIN=false;
-// console.log( isLoggedIN || "Please Login");
-
-// isLoggedIN = true;
-// console.log(isLoggedIN && "Welcome back");
-
-// let isAdmin=true;
-// console.log(isAdmin && 'Admin Panel')||(isLoggedIn && "user Dashboard");
-
-//optional chaining (?.)
-let user={
-    name: "nilakshi",
-    address:{
-        city:"jammu",
-    },
-    mobile: 4050,
-};
-console.log(user.address.city);
-console.log(user?.address?.city?.pincode?.area);
-
+s1.display();
+s2.display();
